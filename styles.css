@@ -34,8 +34,8 @@ body {
 }
 
 .top-left {
-  top: 110px; /* légèrement descendu */
-  left: 38px; /* déplacé de 15px vers la droite */
+  top: 115px; /* légèrement descendu */
+  left: 50px; /* déplacé de 15px vers la droite */
 }
 
 .center {
@@ -45,26 +45,27 @@ body {
 }
 
 .top-right {
-  top: 110px; /* légèrement descendu */
+  top: 120px; /* légèrement descendu */
   right: 55px; /* déplacé de 30px vers la gauche */
 }
 
 .bottom-right {
   bottom: 110px; /* remonté de 50px */
-  right: 20px;
+  right: 60px;
 }
 
 button {
   padding: 6px 10px;
   font-size: 13px;
-  background-color: #dae3f4;
+  background-color: #e0e4f4;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  min-width: 180px;
+  max-width: 200px;
   text-align: center;
   transition: background-color 0.3s;
 }
+
 
 button:hover {
   background-color: #c7cbe4;
