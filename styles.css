@@ -19,11 +19,13 @@ body {
 .menu-container {
   position: relative;
   display: inline-block;
+  background-color: #ffffff;
 }
 
 .menu-image {
   max-width: 100%;
   display: block;
+  background-color: #ffffff;
 }
 
 .button-group {
